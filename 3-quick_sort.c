@@ -26,7 +26,7 @@ int separation(int *array, size_t size, int left, int right)
 
 	for (; i < right; i++)
 	{
-		if (*(arra + i) <= pivot)
+		if (*(array + i) <= pivot)
 		{
 			j++;
 			if (j != i)
